@@ -1,0 +1,7 @@
+{
+  "name": "MidiTest",
+  "integrations": {
+    "cordova": {}
+  },
+  "type": "ionic-angular"
+}
