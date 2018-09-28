@@ -1,14 +1,21 @@
 <ion-header>
   <ion-navbar>
     <ion-title>
-      Ionic Blank
+      Midi Test
     </ion-title>
   </ion-navbar>
 </ion-header>
 
 <ion-content padding>
-  The world is your oyster.
-  <p>
-    If you get lost, the <a href="http://ionicframework.com/docs/v2">docs</a> will be your guide.
-  </p>
+  <!-- {{ midiEvent.srcElement.name }} -->
+  <div *ngIf="midiEvent">
+    <p>
+        {{ midiEvent.channe }}
+    </p>
+    <p>
+        {{ midiEvent.data }}
+    </p>
+
+  </div>
+
 </ion-content>
